@@ -1,0 +1,91 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - map_box_plugin (0.0.1):
+    - Flutter
+    - MapboxCoreNavigation (~> 2.18.4)
+    - MapboxMaps (~> 10.17.0)
+    - MapboxNavigation (~> 2.18.4)
+  - mapbox_maps_flutter (0.6.0):
+    - Flutter
+    - MapboxMaps (~> 10.17.0)
+  - MapboxCommon (23.9.2)
+  - MapboxCoreMaps (10.17.0):
+    - MapboxCommon (~> 23.9)
+  - MapboxCoreNavigation (2.18.4):
+    - MapboxDirections (~> 2.12)
+    - MapboxNavigationNative (< 205.0.0, >= 204.0.1)
+  - MapboxDirections (2.12.0):
+    - Polyline (~> 5.0)
+    - Turf (~> 2.7.0)
+  - MapboxMaps (10.17.0):
+    - MapboxCommon (= 23.9.2)
+    - MapboxCoreMaps (= 10.17.0)
+    - MapboxMobileEvents (= 1.0.10)
+    - Turf (= 2.7.0)
+  - MapboxMobileEvents (1.0.10)
+  - MapboxNavigation (2.18.4):
+    - MapboxCoreNavigation (= 2.18.4)
+    - MapboxMaps (~> 10.17)
+    - MapboxSpeech (~> 2.0)
+    - Solar-dev (~> 3.0)
+  - MapboxNavigationNative (204.1.0):
+    - MapboxCommon (~> 23.9)
+  - MapboxSpeech (2.1.1)
+  - Polyline (5.1.0)
+  - Solar-dev (3.0.1)
+  - Turf (2.7.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - map_box_plugin (from `.symlinks/plugins/map_box_plugin/ios`)
+  - mapbox_maps_flutter (from `.symlinks/plugins/mapbox_maps_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxCoreNavigation
+    - MapboxDirections
+    - MapboxMaps
+    - MapboxMobileEvents
+    - MapboxNavigation
+    - MapboxNavigationNative
+    - MapboxSpeech
+    - Polyline
+    - Solar-dev
+    - Turf
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  map_box_plugin:
+    :path: ".symlinks/plugins/map_box_plugin/ios"
+  mapbox_maps_flutter:
+    :path: ".symlinks/plugins/mapbox_maps_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+  map_box_plugin: 70af5d843978dd5fad75d3505e71c9db1272084b
+  mapbox_maps_flutter: 1b0f2c21a17107d39e0d3e7d956590af6983bd1b
+  MapboxCommon: 768660d6fca8193529ecf82eb6f5f9ae7a5acdf9
+  MapboxCoreMaps: be412ff97b16aa7820922c818115a9a0d8211caa
+  MapboxCoreNavigation: a4fa72bdb987dc9ab55615878299bf571f83a2b1
+  MapboxDirections: 4676f626df320732dcf74612223e568d39588320
+  MapboxMaps: 87ef0003e6db46e45e7a16939f29ae87e38e7ce2
+  MapboxMobileEvents: de50b3a4de180dd129c326e09cd12c8adaaa46d6
+  MapboxNavigation: b80fc4d8317c38fe01aa2aff2d365d6d9f7ad62a
+  MapboxNavigationNative: 2667fa3783d7e5196def8d7cf9e6fdafd87b7ef9
+  MapboxSpeech: cd25ef99c3a3d2e0da72620ff558276ea5991a77
+  Polyline: 2a1f29f87f8d9b7de868940f4f76deb8c678a5b1
+  Solar-dev: 4612dc9878b9fed2667d23b327f1d4e54e16e8d0
+  Turf: 13d1a92d969ca0311bbc26e8356cca178ce95da2
+
+PODFILE CHECKSUM: 84540992e97e095b49658b084542be4caf76bf40
+
+COCOAPODS: 1.15.2
